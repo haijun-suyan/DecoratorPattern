@@ -1,4 +1,4 @@
-//  分类补充((游戏)外挂)
+//  Category功能分类补充((游戏)外挂)
 //  GamePad+Cheat.m
 //  DecoratorPattern
 //
@@ -20,14 +20,12 @@
     [self right];
     [self left];
     [self right];
-    [self commandA];
-    [self commandB];
-    [self commandA];
-    [self commandB];
+    
 }
 
+//次级up事件补充区重写实例(访问事件补充区的实例/主类本体区中的实例则不再访问)
 //- (void)up {
-//    NSLog(@"1234536478965432");
+//    NSLog(@"SubUp");
 //}
 
 @end

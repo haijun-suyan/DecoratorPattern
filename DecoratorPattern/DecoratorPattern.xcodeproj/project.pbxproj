@@ -126,16 +126,16 @@
 				76716E9B1E65D24D00CF6554 /* ViewController.h */,
 				76716E9C1E65D24D00CF6554 /* ViewController.m */,
 				76716EDD1E65D7CE00CF6554 /* help.png */,
-				76716EC81E65D26C00CF6554 /* GamePad.h */,
-				76716EC91E65D26C00CF6554 /* GamePad.m */,
 				76716ECB1E65D2B700CF6554 /* GamePadDecorator.h */,
 				76716ECC1E65D2B700CF6554 /* GamePadDecorator.m */,
 				76716EDA1E65D59300CF6554 /* CheatGamePadDecorator.h */,
 				76716EDB1E65D59400CF6554 /* CheatGamePadDecorator.m */,
-				76716ED11E65D38C00CF6554 /* GamePad+Cheat.h */,
-				76716ED21E65D38C00CF6554 /* GamePad+Cheat.m */,
 				76716ED41E65D40300CF6554 /* CoinGamePadDecorator.h */,
 				76716ED51E65D40300CF6554 /* CoinGamePadDecorator.m */,
+				76716EC81E65D26C00CF6554 /* GamePad.h */,
+				76716EC91E65D26C00CF6554 /* GamePad.m */,
+				76716ED11E65D38C00CF6554 /* GamePad+Cheat.h */,
+				76716ED21E65D38C00CF6554 /* GamePad+Cheat.m */,
 				76716ED71E65D44700CF6554 /* GamePad+Coin.h */,
 				76716ED81E65D44700CF6554 /* GamePad+Coin.m */,
 				76716E9E1E65D24D00CF6554 /* Main.storyboard */,
@@ -259,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -545,6 +546,7 @@
 				76716EC11E65D24D00CF6554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76716EC21E65D24D00CF6554 /* Build configuration list for PBXNativeTarget "DecoratorPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +555,7 @@
 				76716EC41E65D24D00CF6554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76716EC51E65D24D00CF6554 /* Build configuration list for PBXNativeTarget "DecoratorPatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +564,7 @@
 				76716EC71E65D24D00CF6554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

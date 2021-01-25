@@ -1,7 +1,7 @@
-//
+//  主类
 //  GamePad.h
 //  DecoratorPattern
-//
+//  (@interface...@end)类定义声明区/(@implementation...@end)类本身实例区
 //  Created by haijunyan on 2019/2/28.
 //  Copyright © 2019年 haijunyan. All rights reserved.
 //
@@ -11,25 +11,11 @@
 @interface GamePad : NSObject
 
 /**
- *  上下左右的操作
+ *  上下左右(次级事件API声明)(次级事件不推荐在补充区重写实例)
  */
 - (void)up;
 - (void)down;
 - (void)left;
 - (void)right;
-
-/**
- *  选择与开始的操作
- */
-- (void)select;
-- (void)start;
-
-/**
- *  按钮 A + B + X + Y
- */
-- (void)commandA;
-- (void)commandB;
-- (void)commandX;
-- (void)commandY;
 
 @end

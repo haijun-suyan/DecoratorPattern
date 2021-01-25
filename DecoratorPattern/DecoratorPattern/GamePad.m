@@ -9,56 +9,21 @@
 #import "GamePad.h"
 
 @implementation GamePad
-
+//次级事件API本身实例
 - (void)up {
-    
-    NSLog(@"up");
+    NSLog(@"MainUp");
 }
 
 - (void)down {
-    
     NSLog(@"down");
 }
 
 - (void)left {
-    
     NSLog(@"left");
 }
 
 - (void)right {
-    
     NSLog(@"right");
 }
-
-- (void)select {
-    
-    NSLog(@"select");
-}
-
-- (void)start {
-    
-    NSLog(@"start");
-}
-
-- (void)commandA {
-    
-    NSLog(@"commandA");
-}
-
-- (void)commandB {
-    
-    NSLog(@"commandB");
-}
-
-- (void)commandX {
-    
-    NSLog(@"commandX");
-}
-
-- (void)commandY {
-    
-    NSLog(@"commandY");
-}
-
 
 @end

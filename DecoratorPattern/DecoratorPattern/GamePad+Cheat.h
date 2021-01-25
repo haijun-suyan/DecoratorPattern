@@ -1,4 +1,4 @@
-//
+//  Category功能分类补充
 //  GamePad+Cheat.h
 //  DecoratorPattern
 //
@@ -11,8 +11,5 @@
 @interface GamePad (Cheat)
 
 - (void)cheat;
-
-//千万不用重写方法
-//- (void)up;
 
 @end
