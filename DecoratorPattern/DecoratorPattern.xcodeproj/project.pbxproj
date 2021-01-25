@@ -22,6 +22,7 @@
 		76716ED91E65D44700CF6554 /* GamePad+Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716ED81E65D44700CF6554 /* GamePad+Coin.m */; };
 		76716EDC1E65D59400CF6554 /* CheatGamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716EDB1E65D59400CF6554 /* CheatGamePadDecorator.m */; };
 		76716EDE1E65D7CE00CF6554 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 76716EDD1E65D7CE00CF6554 /* help.png */; };
+		F34AEA8C25BEAA6C00B080C6 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = F34AEA8B25BEAA6C00B080C6 /* 123.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		76716EDA1E65D59300CF6554 /* CheatGamePadDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheatGamePadDecorator.h; sourceTree = "<group>"; };
 		76716EDB1E65D59400CF6554 /* CheatGamePadDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheatGamePadDecorator.m; sourceTree = "<group>"; };
 		76716EDD1E65D7CE00CF6554 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		F34AEA8B25BEAA6C00B080C6 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				76716E991E65D24D00CF6554 /* AppDelegate.m */,
 				76716E9B1E65D24D00CF6554 /* ViewController.h */,
 				76716E9C1E65D24D00CF6554 /* ViewController.m */,
+				F34AEA8B25BEAA6C00B080C6 /* 123.png */,
 				76716EDD1E65D7CE00CF6554 /* help.png */,
 				76716ECB1E65D2B700CF6554 /* GamePadDecorator.h */,
 				76716ECC1E65D2B700CF6554 /* GamePadDecorator.m */,
@@ -284,6 +287,7 @@
 				76716EA51E65D24D00CF6554 /* LaunchScreen.storyboard in Resources */,
 				76716EA21E65D24D00CF6554 /* Assets.xcassets in Resources */,
 				76716EA01E65D24D00CF6554 /* Main.storyboard in Resources */,
+				F34AEA8C25BEAA6C00B080C6 /* 123.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
