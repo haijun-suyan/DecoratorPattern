@@ -1,4 +1,5 @@
-//
+//  特定装饰器类(高级修饰辅助)
+//  特定子类 事件自调用 进行组合
 //  CoinGamePadDecorator.h
 //  DecoratorPattern
 //
@@ -11,8 +12,8 @@
 @interface CoinGamePadDecorator : GamePadDecorator
 
 /**
- *  游戏币
+ *  游戏币特定修饰事件
  */
-@property (nonatomic) NSInteger  coin;
+@property(nonatomic)NSInteger coin;
 
 @end

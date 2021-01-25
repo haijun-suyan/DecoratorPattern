@@ -27,31 +27,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self testDecotator];
-    [self testCategory];
-    
+//    [self testCategory];
 }
 
 - (void)testDecotator {
-    GamePadDecorator *gamePadDecorator = [[GamePadDecorator alloc] init];
-    [gamePadDecorator up];
-    
-    CheatGamePadDecorator *cheatPamePad = [[CheatGamePadDecorator alloc] init];
-    [cheatPamePad cheat];
-
+    GamePadDecorator *cheatPamePad = [[CheatGamePadDecorator alloc] init];
+    [(CheatGamePadDecorator *)cheatPamePad cheat];
 }
 
 - (void)testCategory {
     GamePad *gamePad = [[GamePad alloc] init];
-    [gamePad up];
-    
-    gamePad.coin = 10;
+//    [gamePad up];
+
+    //-[GamePad setCoin:]
+    gamePad.coin = 20;
+//    [gamePad setCoin:20];
     NSLog(@"coin %ld", (long)gamePad.coin);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
+}
 
 @end

@@ -1,4 +1,4 @@
-//
+//  计算机设备的内容寻找过程实质为地址寻找过程。所谓内容即对应着逐个地址区。
 //  GamePadDecorator.m
 //  DecoratorPattern
 //
@@ -11,10 +11,9 @@
 
 @interface GamePadDecorator ()
 
-@property (nonatomic, strong) GamePad *gamePad;
+@property (nonatomic,strong) GamePad *gamePad;
 
 @end
-
 
 @implementation GamePadDecorator
 
@@ -22,7 +21,6 @@
     
     self = [super init];
     if (self) {
-        
         self.gamePad = [[GamePad alloc] init];
     }
     
@@ -30,53 +28,19 @@
 }
 
 - (void)up {
-    
     [self.gamePad up];
 }
 
 - (void)down {
-    
     [self.gamePad down];
 }
 
 - (void)left {
-    
     [self.gamePad left];
 }
 
 - (void)right {
-    
     [self.gamePad right];
-}
-
-- (void)select {
-    
-    [self.gamePad select];
-}
-
-- (void)start {
-    
-    [self.gamePad start];
-}
-
-- (void)commandA {
-    
-    [self.gamePad commandA];
-}
-
-- (void)commandB {
-    
-    [self.gamePad commandB];
-}
-
-- (void)commandX {
-    
-    [self.gamePad commandX];
-}
-
-- (void)commandY {
-    
-    [self.gamePad commandY];
 }
 
 @end
