@@ -79,4 +79,18 @@
     [self.gamePad commandY];
 }
 
+- (void)cheat {
+    [self up];
+    [self down];
+    [self up];
+    [self down];
+    [self left];
+    [self right];
+    [self left];
+    [self right];
+    [self commandA];
+    [self commandB];
+    [self commandA];
+    [self commandB];
+}
 @end

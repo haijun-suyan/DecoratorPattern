@@ -15,13 +15,11 @@
 		76716EA51E65D24D00CF6554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76716EA31E65D24D00CF6554 /* LaunchScreen.storyboard */; };
 		76716EB01E65D24D00CF6554 /* DecoratorPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716EAF1E65D24D00CF6554 /* DecoratorPatternTests.m */; };
 		76716EBB1E65D24D00CF6554 /* DecoratorPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716EBA1E65D24D00CF6554 /* DecoratorPatternUITests.m */; };
-		76716ECA1E65D26C00CF6554 /* GamePad.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716EC91E65D26C00CF6554 /* GamePad.m */; };
-		76716ECD1E65D2B700CF6554 /* GamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716ECC1E65D2B700CF6554 /* GamePadDecorator.m */; };
 		76716ED31E65D38C00CF6554 /* GamePad+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716ED21E65D38C00CF6554 /* GamePad+Cheat.m */; };
-		76716ED61E65D40300CF6554 /* CoinGamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716ED51E65D40300CF6554 /* CoinGamePadDecorator.m */; };
 		76716ED91E65D44700CF6554 /* GamePad+Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716ED81E65D44700CF6554 /* GamePad+Coin.m */; };
-		76716EDC1E65D59400CF6554 /* CheatGamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76716EDB1E65D59400CF6554 /* CheatGamePadDecorator.m */; };
 		76716EDE1E65D7CE00CF6554 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 76716EDD1E65D7CE00CF6554 /* help.png */; };
+		F3B72C952AFCBC0500656745 /* GamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B72C912AFCBC0500656745 /* GamePadDecorator.m */; };
+		F3B72C962AFCBC0500656745 /* GamePad.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B72C922AFCBC0500656745 /* GamePad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,19 +56,15 @@
 		76716EB61E65D24D00CF6554 /* DecoratorPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoratorPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76716EBA1E65D24D00CF6554 /* DecoratorPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorPatternUITests.m; sourceTree = "<group>"; };
 		76716EBC1E65D24D00CF6554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76716EC81E65D26C00CF6554 /* GamePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePad.h; sourceTree = "<group>"; };
-		76716EC91E65D26C00CF6554 /* GamePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePad.m; sourceTree = "<group>"; };
-		76716ECB1E65D2B700CF6554 /* GamePadDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePadDecorator.h; sourceTree = "<group>"; };
-		76716ECC1E65D2B700CF6554 /* GamePadDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePadDecorator.m; sourceTree = "<group>"; };
 		76716ED11E65D38C00CF6554 /* GamePad+Cheat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GamePad+Cheat.h"; sourceTree = "<group>"; };
 		76716ED21E65D38C00CF6554 /* GamePad+Cheat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Cheat.m"; sourceTree = "<group>"; };
-		76716ED41E65D40300CF6554 /* CoinGamePadDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinGamePadDecorator.h; sourceTree = "<group>"; };
-		76716ED51E65D40300CF6554 /* CoinGamePadDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinGamePadDecorator.m; sourceTree = "<group>"; };
 		76716ED71E65D44700CF6554 /* GamePad+Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GamePad+Coin.h"; sourceTree = "<group>"; };
 		76716ED81E65D44700CF6554 /* GamePad+Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Coin.m"; sourceTree = "<group>"; };
-		76716EDA1E65D59300CF6554 /* CheatGamePadDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheatGamePadDecorator.h; sourceTree = "<group>"; };
-		76716EDB1E65D59400CF6554 /* CheatGamePadDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheatGamePadDecorator.m; sourceTree = "<group>"; };
 		76716EDD1E65D7CE00CF6554 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		F3B72C912AFCBC0500656745 /* GamePadDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePadDecorator.m; sourceTree = "<group>"; };
+		F3B72C922AFCBC0500656745 /* GamePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePad.m; sourceTree = "<group>"; };
+		F3B72C932AFCBC0500656745 /* GamePadDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePadDecorator.h; sourceTree = "<group>"; };
+		F3B72C942AFCBC0500656745 /* GamePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePad.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,23 +115,16 @@
 		76716E941E65D24D00CF6554 /* DecoratorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				76716ED11E65D38C00CF6554 /* GamePad+Cheat.h */,
+				76716ED21E65D38C00CF6554 /* GamePad+Cheat.m */,
+				76716ED71E65D44700CF6554 /* GamePad+Coin.h */,
+				76716ED81E65D44700CF6554 /* GamePad+Coin.m */,
 				76716E981E65D24D00CF6554 /* AppDelegate.h */,
 				76716E991E65D24D00CF6554 /* AppDelegate.m */,
 				76716E9B1E65D24D00CF6554 /* ViewController.h */,
 				76716E9C1E65D24D00CF6554 /* ViewController.m */,
+				F3B72C902AFCBC0500656745 /* DecoratorPattern */,
 				76716EDD1E65D7CE00CF6554 /* help.png */,
-				76716EC81E65D26C00CF6554 /* GamePad.h */,
-				76716EC91E65D26C00CF6554 /* GamePad.m */,
-				76716ECB1E65D2B700CF6554 /* GamePadDecorator.h */,
-				76716ECC1E65D2B700CF6554 /* GamePadDecorator.m */,
-				76716EDA1E65D59300CF6554 /* CheatGamePadDecorator.h */,
-				76716EDB1E65D59400CF6554 /* CheatGamePadDecorator.m */,
-				76716ED11E65D38C00CF6554 /* GamePad+Cheat.h */,
-				76716ED21E65D38C00CF6554 /* GamePad+Cheat.m */,
-				76716ED41E65D40300CF6554 /* CoinGamePadDecorator.h */,
-				76716ED51E65D40300CF6554 /* CoinGamePadDecorator.m */,
-				76716ED71E65D44700CF6554 /* GamePad+Coin.h */,
-				76716ED81E65D44700CF6554 /* GamePad+Coin.m */,
 				76716E9E1E65D24D00CF6554 /* Main.storyboard */,
 				76716EA11E65D24D00CF6554 /* Assets.xcassets */,
 				76716EA31E65D24D00CF6554 /* LaunchScreen.storyboard */,
@@ -171,6 +158,17 @@
 				76716EBC1E65D24D00CF6554 /* Info.plist */,
 			);
 			path = DecoratorPatternUITests;
+			sourceTree = "<group>";
+		};
+		F3B72C902AFCBC0500656745 /* DecoratorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F3B72C912AFCBC0500656745 /* GamePadDecorator.m */,
+				F3B72C922AFCBC0500656745 /* GamePad.m */,
+				F3B72C932AFCBC0500656745 /* GamePadDecorator.h */,
+				F3B72C942AFCBC0500656745 /* GamePad.h */,
+			);
+			path = DecoratorPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -307,14 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76716ECD1E65D2B700CF6554 /* GamePadDecorator.m in Sources */,
 				76716E9D1E65D24D00CF6554 /* ViewController.m in Sources */,
-				76716EDC1E65D59400CF6554 /* CheatGamePadDecorator.m in Sources */,
+				F3B72C952AFCBC0500656745 /* GamePadDecorator.m in Sources */,
 				76716E9A1E65D24D00CF6554 /* AppDelegate.m in Sources */,
 				76716E971E65D24D00CF6554 /* main.m in Sources */,
+				F3B72C962AFCBC0500656745 /* GamePad.m in Sources */,
 				76716ED91E65D44700CF6554 /* GamePad+Coin.m in Sources */,
-				76716ECA1E65D26C00CF6554 /* GamePad.m in Sources */,
-				76716ED61E65D40300CF6554 /* CoinGamePadDecorator.m in Sources */,
 				76716ED31E65D38C00CF6554 /* GamePad+Cheat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,6 +542,7 @@
 				76716EC11E65D24D00CF6554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76716EC21E65D24D00CF6554 /* Build configuration list for PBXNativeTarget "DecoratorPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +551,7 @@
 				76716EC41E65D24D00CF6554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76716EC51E65D24D00CF6554 /* Build configuration list for PBXNativeTarget "DecoratorPatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +560,7 @@
 				76716EC71E65D24D00CF6554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

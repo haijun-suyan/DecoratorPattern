@@ -7,10 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "GamePad.h"
 #import "GamePadDecorator.h"
-#import "CheatGamePadDecorator.h"
-#import "GamePad+Coin.h"
 
 
 @interface ViewController ()
@@ -35,17 +32,18 @@
     GamePadDecorator *gamePadDecorator = [[GamePadDecorator alloc] init];
     [gamePadDecorator up];
     
-    CheatGamePadDecorator *cheatPamePad = [[CheatGamePadDecorator alloc] init];
-    [cheatPamePad cheat];
+    GamePadDecorator *decorator = [GamePadDecorator new];
+    [decorator up];
+    [decorator cheat];
 
 }
 
 - (void)testCategory {
-    GamePad *gamePad = [[GamePad alloc] init];
-    [gamePad up];
-    
-    gamePad.coin = 10;
-    NSLog(@"coin %ld", (long)gamePad.coin);
+//    GamePad *gamePad = [[GamePad alloc] init];
+//    [gamePad up];
+//
+//    gamePad.coin = 10;
+//    NSLog(@"coin %ld", (long)gamePad.coin);
 }
 
 - (void)didReceiveMemoryWarning {
